@@ -1,0 +1,9 @@
+[
+  {
+    "artifact": "frcJava (in project DDD)",
+    "target": "roborio",
+    "debugfile": "frcJava_roborio.debugconfig",
+    "project": "DDD",
+    "language": "java"
+  }
+]
