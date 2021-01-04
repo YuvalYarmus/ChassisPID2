@@ -88,7 +88,7 @@ public class ChasisAdmin extends CommandBase implements Sendable {
   // Returns true when the command should end.
   @Override
   public boolean isFinished() {
-    if (Math.abs(this.distance_in_meters)  > 0.8) {
+    if (Math.abs(this.distance_in_meters)  > 2) {
       System.out.println("FinishFinishFinishFinishFinishFinishFinishFinishFinishFinishFinishFinishFinishFinishFinish");
       System.out.println("FinishFinishFinishFinishFinishFinishFinishFinishFinishFinishFinishFinishFinishFinishFinish");
       return true; 
