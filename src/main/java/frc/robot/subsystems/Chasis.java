@@ -70,10 +70,10 @@ public class Chasis extends SubsystemBase {
     }
     else {
       double velPulse = vel / Constants.pulseInMeter/ 10; 
-      BackLeft.set(ControlMode.Velocity, velPulse, DemandType.ArbitraryFeedForward,
+      BackLeft.set(ControlMode.Velocity, -velPulse, DemandType.ArbitraryFeedForward,
           (vel * Constants.ks + Constants.kv) / 12);
   
-      FrontRight.set(ControlMode.Velocity, velPulse, DemandType.ArbitraryFeedForward,
+      FrontRight.set(ControlMode.Velocity, -velPulse, DemandType.ArbitraryFeedForward,
           (vel * Constants.ks + Constants.kv) / 12);
   
     }
